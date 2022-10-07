@@ -6,6 +6,7 @@ precioPanDelDia = 3.49
 descuento = 60
 
 barrasNoDia = int(input("Cuantas barras han vendido que no son del dia?"))
+barrasDelDia = int(input("Cuantas barras del dia has vendido?"))
 print("La barra de pan cuesta", precioPanDelDia)
-descuentoPanAntiguo = (precioPanDelDia * 0.6)
+descuentoPanAntiguo = (precioPanDelDia * 0.6) + barrasDelDia
 print(descuentoPanAntiguo)
